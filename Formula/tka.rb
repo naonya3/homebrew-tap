@@ -1,13 +1,13 @@
 class Tka < Formula
   desc "Workflow declaration DSL for AI agents"
   homepage "https://github.com/naonya3/tka"
-  version "0.23.0"
+  version "0.24.0"
   license "MIT"
 
   on_macos do
     on_arm do
-      url "https://github.com/naonya3/tka/releases/download/v0.23.0/tka-macos-arm64"
-      sha256 "fc9eff71ef771490111f541bbede76b99810253575a382f039d27546f1cd655c"
+      url "https://github.com/naonya3/tka/releases/download/v0.24.0/tka-macos-arm64"
+      sha256 "15a774fb7e6a10500e32a23872dead45ea343b620a4bb381e3462bfcbcc1503e"
 
       def install
         bin.install "tka-macos-arm64" => "tka"
@@ -16,8 +16,8 @@ class Tka < Formula
   end
 
   on_linux do
-    url "https://github.com/naonya3/tka/releases/download/v0.23.0/tka-linux-x64"
-    sha256 "04c4c7d37cac3cc44405cd4a9dc4c860a941f6c3910e12467c26361809a424b6"
+    url "https://github.com/naonya3/tka/releases/download/v0.24.0/tka-linux-x64"
+    sha256 "0011f6600db12ecaf82cf099bf431535bf19b82d681e04c3b2b9478a07f81aee"
 
     def install
       bin.install "tka-linux-x64" => "tka"
